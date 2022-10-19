@@ -15,7 +15,7 @@ A CMS blog application with the MVC in its architectural structure, using Handle
 <p><a href="https://www.npmjs.com/package/mysql2">Node MySQL 2</a></p>
 <p><a href="https://www.npmjs.com/package/bcrypt">node.bcrypt.js</a></p>
 <p><a href="https://www.npmjs.com/package/express-session">express-session</a></p>
-<p><a href="https://www.npmjs.com/package/connect-session-sequelizen">connect-session-sequalize</a></p>
+<p><a href="https://www.npmjs.com/package/connect-session-sequelize">connect-session-sequalize</a></p>
 <p><a href="https://www.heroku.com/">Heroku</a></p>
 
 ### Contributor
