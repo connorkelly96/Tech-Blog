@@ -2,9 +2,9 @@
     --primary: #ffffff;
     --secondary: #5c821a;
     --tertiary: #c6d166;
-    --light-dark: #0f1b07;
     --dark: #777e40;
     --border-radius: 0.2rem;
+    --darker: #0f1b07;
   }
   
   * {
@@ -29,8 +29,9 @@
   h6 {
     font-weight: 700;
     margin: 0;
-    color: var(--dark);
+    color: var(--tertiary);
     line-height: 1.25;
+    letter-spacing: 1px;
   }
   
   h2 a:visited {
@@ -57,7 +58,8 @@
   }
   
   p {
-    font-size: 1.2rem;
+    font-size: 1rem;
+    color: var(--darker);
   }
   
   input {
@@ -83,16 +85,12 @@
     color: var(--primary);
     border: none;
     outline: none;
-    background-color: var(--light-dark);
-    box-shadow: 3px 3px var(--dark);
-    transform: translate(-1px, -1px);
+    background-color: var(--tertiary);
   }
   
   .btn:hover {
     color: var(--primary);
-    background-color: var(--tertiary);
-    transform: translate(0, 0);
-    box-shadow: 2px 2px var(--dark);
+    background-color: var(--dark);
   }
   
   .btn-inline {
@@ -128,17 +126,14 @@
   }
   
   .app-title {
-    font-size: 3rem;
-    background-color: var(--primary);
-    color: var(--dark);
+    font-size: 3rem;    color: var(--primary);
     padding: 0 10px;
     display: inline-block;
-    border-radius: var(--border-radius);
-    box-shadow: 6px 5px var(--light-dark);
+    box-shadow: 6px 5px var(--darker);
   }
   
   .app-title a {
-    color: var(--dark);
+    color: var(--primary);
   }
   
   .list-group {
@@ -147,9 +142,9 @@
   
   .list-item {
     margin-bottom: 10px;
-    padding: 1.5%;
+    padding: 1%;
     border-radius: var(--border-radius);
-    background-color: var(--light-dark);
+    background-color: var(--darker);
     color: var(--primary);
     text-decoration: none;
   }
@@ -171,7 +166,7 @@
   /* CARDS */
   .card {
     margin: 0 0 20px 0;
-    border: 3px solid var(--dark);
+    border: 1px solid var(--dark);
     border-radius: var(--border-radius);
   }
   
@@ -179,11 +174,11 @@
     color: var(--primary);
     background-color: var(--dark);
     padding: 1%;
-    border-radius: calc(0.18rem - 1px) calc(0.18rem - 1px) 0 0;
   }
   
   .card-body {
     padding: 1%;
+    color: var(--darker);
   }
   
   /* FORM */
@@ -203,7 +198,7 @@
     padding: 1%;
     margin: 5px 0;
     font-size: 1.2rem;
-    border: 2px solid var(--light-dark);
+    border: 1px solid var(--darker);
     border-radius: var(--border-radius);
   }
   
@@ -539,6 +534,6 @@
       justify-content: center;
     }
     .nav-item {
-        margin: 0 25px;
+    margin: 0 25px;
     }
   }
